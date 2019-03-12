@@ -1,0 +1,65 @@
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    
+    background-color: #fff;
+}
+
+a:link {
+    text-decoration: none;
+    color: #c4486b;
+}
+
+a:visited {
+    color: #c4486b;
+    text-decoration: underline;
+}
+
+.me-photo img{
+    max-width: 100px;
+    max-height: 200px;
+}
+
+.me-photo {
+    text-align: center;
+}
+
+html {
+    background-color: #e9e2ec;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+    color: #5c242a;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.code {
+    background-color: #cebeaf;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.english-level {
+    text-align: end;
+}
+
+.heading::after {
+    content: '';
+    width: 100px;
+    border-bottom: 1px solid #5c242a;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.contacts {
+    margin-left: 30px;
+}
